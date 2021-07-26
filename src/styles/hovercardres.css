@@ -1,0 +1,82 @@
+.grid{
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    min-height: 80.5vh;
+}
+
+.grid{
+    grid-template-columns: repeat(auto-fill, 13rem);
+}
+
+.poster, .hover-text, .hover-effect{
+    width:13rem;
+    height: 19.5rem;
+}
+
+.hover-text{
+    height: 20rem;
+}
+
+@media only screen and (max-width: 825px){
+
+    .grid{
+        grid-template-columns: repeat(auto-fill, 11rem);
+    }
+
+    .poster, .hover-text, .hover-effect{
+        width:11rem;
+        height: 16.5rem;
+    }
+    .hover-text{
+        height: 17rem;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .grid{
+        grid-template-columns: repeat(auto-fill, 9rem);
+    }
+
+    .poster, .hover-text, .hover-effect{
+        width: 9rem;
+        height: 13.5rem;
+    }
+    .hover-text{
+        height: 14rem;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    
+    .grid{
+        grid-template-columns: repeat(auto-fill, 16rem);
+    }
+
+    .poster, .hover-text, .hover-effect{
+        width:16rem;
+        height: 24rem;
+    }
+    .hover-text{
+        height: 24.5rem;
+    }
+}
+
+@media only screen and (max-width: 350px){
+
+    .grid{
+        grid-template-columns: repeat(auto-fill, 12rem);
+    }
+
+    .poster, .hover-text, .hover-effect{
+        width: 12rem;
+        height: 18rem;
+    }
+    .hover-text{
+        height: 18.5rem;
+    }
+
+}
+

@@ -1,0 +1,120 @@
+.pagin-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60vw;
+    margin: 2rem;
+}
+
+.page-box{
+    padding: 0.7rem;
+    background-color: #101010;
+    color: white;
+    border-radius: 10px;
+    margin: 0.8rem;
+}
+
+.page-box:hover{
+    background-color: #ec1d24;
+}
+
+.page-box:focus,
+.page-box:valid .page-box{
+    background: #ec1d24;
+}
+
+.nav-page{
+    display: none;
+    font-size: 1rem;
+    width: 5rem;
+    padding: 0.3rem;
+    border: 1px solid red;
+    border-radius: 4px;
+    background: #101010;
+    color: red;
+}
+
+
+@media only screen and (max-width:805px){
+
+    .nav-page{
+    display: block;
+    font-size: 1rem;
+    width: 50vw;
+    height: 3rem;
+    padding: 0.3rem;
+    border: 0px solid red;
+    background-color: transparent;
+    border-radius: 0px;
+    color: red;
+    outline: none;
+    }
+    
+    .page-box{
+    display: none;
+    }
+
+    .pagin-container {
+    position: fixed;
+    bottom: 0rem;
+    width: 100vw;
+    margin: 0rem;
+    background-color: #000000b5;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    }
+
+    #border-left{
+        border-left: 1px solid rgb(255, 0, 0);
+    }
+
+    #border-right{
+        border-right: 1px solid rgb(255, 0, 0);
+    }
+
+    .disabled{
+        color: #4a0000;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .page-box{
+    padding: 0.4rem;
+    margin: 0.2rem;
+    font-size: 0.8rem;
+    }
+
+    .pagin-container {
+        position: fixed;
+        bottom: 0rem;
+        width: 100vw;
+        margin: 0rem;
+        background-color: #000000b5;
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+    }
+
+    .nav-page{
+        display: block;
+        font-size: 1rem;
+        width: 50vw;
+        height: 3rem;
+        padding: 0.3rem;
+        border: 0px solid red;
+        background-color: transparent;
+        border-radius: 0px;
+        color: red;
+    }
+
+    #border-left{
+        border-left: 1px solid rgb(255, 0, 0);
+    }
+
+    #border-right{
+        border-right: 1px solid rgb(255, 0, 0);
+    }
+
+    .disabled{
+        color: #4a0000;
+    }
+}
