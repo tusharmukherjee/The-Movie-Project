@@ -33,6 +33,7 @@ Some other photos:
 ![mob-nav](https://user-images.githubusercontent.com/74879193/127105114-ac926904-cec9-4206-aacf-006f391017ca.jpeg)
 ![mob-slides](https://user-images.githubusercontent.com/74879193/127105119-bf654db9-f0a3-4898-88b9-1de4372b002b.jpeg)
 
+Thanks to [The Movie DB API](https://www.themoviedb.org/)
 
 Learnt all the things from great educators on youtube
 [@traversymedia](https://www.youtube.com/user/TechGuyWeb), [@codevolution](https://www.youtube.com/channel/UC80PWRj_ZU8Zu0HSMNVwKWw), [@thapatechnical](https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA), [@dev_ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q)
