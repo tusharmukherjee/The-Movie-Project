@@ -4,14 +4,18 @@
 
 The web app build using REACT Router, Hooks.
 
-All the compontents and logic were build manually
-- oprning and closing of navbar on hamburger menu.
+### All the compontents and logic were build manually
+
+- opening and closing of navbar on hamburger menu.
+
 ![hamburger](https://user-images.githubusercontent.com/74879193/127104573-8e7373d9-777f-471d-beab-c89dc1dc6577.jpeg)
 
 - searching items
+
 ![search](https://user-images.githubusercontent.com/74879193/127104674-875d5b2c-1fe6-4697-839b-98c76b90cb5f.jpeg)
 
 - pagination
+
 ![pagination](https://user-images.githubusercontent.com/74879193/127104748-cceb8723-ae3f-4229-a4fb-d5dd7e8fd7f4.jpeg)
 
 
