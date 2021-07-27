@@ -35,5 +35,4 @@ Some other photos:
 
 Thanks to [The Movie DB API](https://www.themoviedb.org/)
 
-Learnt all the things from great educators on youtube
-[@traversymedia](https://www.youtube.com/user/TechGuyWeb), [@codevolution](https://www.youtube.com/channel/UC80PWRj_ZU8Zu0HSMNVwKWw), [@thapatechnical](https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA), [@dev_ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q)
+Learnt all the things from great educators on youtube.
