@@ -1,0 +1,119 @@
+.home{
+    background: radial-gradient(circle, rgba(179,0,0,1) 0%, rgba(0,0,0,1) 90%);
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.content-container{
+    background-color: #560101;
+}
+.image-home{
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 95vh;
+    filter: brightness(0.20);
+}
+
+.head-center{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 98vh;
+    width: 100%;
+}
+
+.heading-home{
+    color: rgb(255 255 255);
+    font-size: 4rem;
+    text-align: center;
+    width: auto;
+    background-color: transparent;
+    margin: 2rem auto;
+    z-index: 2;
+    animation-name: ltor;
+    animation-duration: 3.5s;   
+}
+
+@keyframes ltor {
+    0%{color: #101010; filter: opacity(0%);}
+    50%{color: rgb(255, 37, 37); filter: opacity(50%);}
+    100%{color: white; filter: opacity(100%);}
+}
+/* --------------------below-content---------------- */
+
+.disp-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem auto;
+    width: 92vw;
+}
+
+
+
+.sub-head{
+    font-size: 1.5rem;
+    color: white
+}
+
+.mov-content{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    overflow-x: auto;
+    margin: 2rem auto;
+    width: 92vw;
+}
+
+.mov-content::-webkit-scrollbar{
+    width: 0rem;
+}
+
+.movies{
+    min-width: 11rem;
+    height: 16.5rem;
+    background-color: transparent;
+    margin: 0rem 0;
+}
+
+.fas{
+    font-size: small;
+}
+
+.less-marg{
+    margin: 1rem auto;
+}
+
+.seoul{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+.last-marg{
+    margin: 1rem auto 0 auto;
+}
+
+@media only screen and (max-width: 825px){
+    .movies{
+        min-width: 9rem;
+        height: 13.5rem;
+    }
+
+    .sub-head{
+        font-size: 1.1rem;
+    }
+
+    .head-center{
+        bottom: 0%;
+        height: 40vh;
+    }
+
+    .heading-home{
+        font-size: 2.5rem;
+        width: 100vw;
+        height: 20vh;
+        padding: 1rem;
+    }
+}

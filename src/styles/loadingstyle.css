@@ -1,0 +1,18 @@
+.loading{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border-top: 0.15rem solid rgb(255, 255, 255);
+    animation: lod 0.5s linear infinite;
+    position: sticky;
+    top: 50%;
+}
+
+@keyframes lod{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

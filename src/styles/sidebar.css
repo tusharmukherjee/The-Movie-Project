@@ -1,0 +1,166 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.box{
+  display: none;
+  cursor: pointer;
+}
+.sidenav{
+  display: none;
+}
+
+@media only screen and (max-width: 1030px){
+  
+/* -----------sidenav----------- */
+
+.sidenav{
+  display: flex;
+  flex-direction: column;
+  height: 0rem;
+  width: 100vw;
+  background-color: #ffffff4a;
+  overflow-x: hidden;
+  transition: 0.1s;
+  position: absolute;
+  z-index: 10;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.a-side{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #202020;
+  cursor: pointer;
+}
+
+.sub-side{
+  padding-left: 50px;
+}
+
+
+.sidenav .a-side:hover {
+  background-color: rgb(236 29 36 / 80%);
+  color: white;
+}
+
+#sub-btn{
+  display: flex;
+  flex-direction: column;
+}
+
+.active{
+  background-color: #ec1d24;
+  color: white;
+}
+.sub-side{
+  background-color: rgb(199 199 199 / 40%);
+  padding: 8px 8px 8px 50px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #202020;
+  cursor: pointer;
+}
+.sub-side:hover{
+  background-color: rgb(236 236 236 / 45%);
+}
+/* -----------search------------ */
+
+.search-block{
+  padding: 8px 8px 8px 32px;
+}
+
+
+form.search-b input[type=text] {
+  padding: 0.6rem 0.5rem;
+  font-size: 1rem;
+  border: 0px;
+  float: left;
+  width: 78%;
+  background: #dfdfdf;
+  border: 0px;
+  outline-style: none;
+  border-radius: 5px 0px 0px 5px;
+  color: #ec1d24;
+}
+
+form.search-b button {
+  float: left;
+  width: 12%;
+  padding: 0.6rem 0.5rem;
+  background: #202020;
+  color: #ffffff;
+  font-size: 1rem;
+  border: 0px;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 0px 5px 5px 0px;
+}
+
+form.search-b button:hover {
+  background: #ec1d24;
+}
+
+/* -----------hamburger--------- */
+  
+.box{
+  height: 20px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.box .one{
+  background-color: rgb(255, 255, 255);
+  width: 25px;
+  height: 4px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.box .two{
+  background-color: rgb(255, 255, 255);
+  width: 35px;
+  height: 4px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.box .three{
+  background-color: rgb(255, 255, 255);
+  width: 25px;
+  height: 4px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.cross .one{
+  position: relative;
+  top: 8px;
+  transform: rotate(45deg);
+  background-color: #ec1d24;
+}
+
+.cross .three{
+  transform: rotate(135deg);
+  position: relative;
+  bottom: 9px;
+  background-color: #ec1d24;
+}
+
+.cross .two{
+  position: relative;
+  transform: translateX(20px);
+  opacity: 0;
+  background-color: #eeff00;
+}
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav a {font-size: 18px;}
+}

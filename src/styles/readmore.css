@@ -1,0 +1,139 @@
+
+.back-image{
+
+    height: 95vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(0.9);
+    display: flow-root;
+}
+
+.full-info{
+    width: 90vw;
+    height: 70vh;
+    margin: 2rem auto;
+    color: white;
+    position: absolute;
+    top: 6rem;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    bottom: 0px;
+    align-items: center;
+}
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.head-read{
+    width: 50%;
+    font-size: 3.5rem;
+}
+
+.head-read, .full-description{
+    margin: 2.2rem 2rem 0rem 0rem;;
+}
+
+.spans{
+    margin: 0.5rem 2rem 0rem 0rem;
+    width: 50%;
+    overflow: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.trailer{
+    padding: 0.5rem;
+    margin: 1rem 0 0 0;
+    background-color: #ec1d24;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border: 0px;
+}
+.fa-play{
+    font-size: 0.8rem;
+    padding: 0px 0.4rem;
+}
+.vote-average, .release-date, .duration, .back{
+    padding: 0.3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+}
+
+
+.release-date, .duration{
+ margin-left: 1rem;
+}
+
+.full-description{
+    font-weight: 300;
+    word-spacing: 2px;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    margin: 0rem 0rem;
+    width: 80%;
+}
+
+
+@media only screen and (max-width: 815px){
+    .back-image{
+        height: calc(100vw*0.562);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        filter: brightness(0.9);
+        display: flow-root;
+    }
+
+    .full-info{
+        margin: 0rem auto;
+        position: static;
+        color: black;
+        height: 100%;
+    }
+
+
+    .head-read{
+        width: 92%;
+        font-size: 2rem;
+        margin: 1rem 0 0 1rem;
+        padding: 0 1rem 0 0;
+    }
+
+    .spans{
+        margin: 1rem 0rem 0rem 1rem;
+        width: 92%;
+    }
+
+    .trailer{
+        float: left;
+        margin: 0.5rem 0 0 0;
+    }
+
+    .full-description {
+        font-size: 1.2rem;
+        margin: 3rem 1rem;
+        width: 92%;
+    }
+
+    .vote-average, .release-date, .duration{
+        background: none;
+        color: red;
+        padding: 0.3rem 0.3rem 0.3rem 0;
+    }
+        
+}
